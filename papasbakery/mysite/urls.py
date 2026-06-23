@@ -22,9 +22,9 @@ from papasbakeryapp import views
 urlpatterns = [
     path("papasbakeryapp/", include("papasbakeryapp.urls")),
     path("admin/", admin.site.urls),
-    path("home", views.home, name="home"),
-    path("menu", views.menu, name="menu"),
-    path("aboutus", views.aboutus, name="aboutus"),
+    # path("home", views.home, name="home"),
+    # path("menu", views.menu, name="menu"),
+    # path("aboutus", views.aboutus, name="aboutus"),
 ]
         
 #This is a test 
